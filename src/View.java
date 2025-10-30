@@ -39,7 +39,6 @@ public class View {
         System.out.println("-Seleccione el orden-");
         System.out.println("1-> Ascendente");
         System.out.println("2-> Descendente");
-        System.out.println("3-> Salir");
         System.out.print("Seleccione la opción: ");
     }
     
@@ -47,7 +46,6 @@ public class View {
         System.out.println("-Quiere ver los pasos-");
         System.out.println("1-> Si");
         System.out.println("2-> No");
-        System.out.println("3-> Salir");
         System.out.print("Seleccione la opción: ");
     }
 }

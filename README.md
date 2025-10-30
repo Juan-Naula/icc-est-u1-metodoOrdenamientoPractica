@@ -1,18 +1,46 @@
-## Getting Started
+# Estructura de datos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Estudiante:** Juan Naula
 
-## Folder Structure
+## Metodos Ordenamiento Practica
 
-The workspace contains two folders by default, where:
+### Metodo Selection
+Explicacion:
+Selection sort selecciona el elemento mínimo (o máximo) del subarreglo restante y lo coloca en su posición correcta en cada iteración. Es simple y hace O(n^2) comparaciones.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Ascendente:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+![alt text](assets/SelectionSortAscen.png)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Descendente:
 
-## Dependency Management
+![alt text](assets/SelectionSortDescen.png)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Metodo Insertion
+Explicacion:
+Insertion inserta cada elemento en la posición adecuada dentro del prefijo ya ordenado; es eficiente para arreglos pequeños o casi ordenados (mejor caso O(n)).
+
+Ascendente:
+
+![alt text](assets/InsertionSortAscen.png)
+
+Descendente:
+
+![alt text](assets/InsertionSortDescen.png)
+
+### Metodo Bubble 
+Explicacion:
+Bubble compara e intercambia pares adyacentes; la versión mejorada puede terminar antes si no se producen swaps en una pasada. Suele ser O(n^2).
+
+Ascendente:
+
+![alt text](assets/BubbleSortAscen.png)
+
+Descendente:
+
+![alt text](assets/BubbleSortDescen.png)
+
+### Conclusion de la Practica
+
+La práctica permitió implementar y observar el comportamiento de tres algoritmos de ordenamiento. Insertion destaca en arreglos casi ordenados; Selection es útil por su simplicidad y número reducido de swaps; Bubble es intuitivo pero menos eficiente, aunque su variante mejorada puede ahorrar trabajo en casos favorables.
+
