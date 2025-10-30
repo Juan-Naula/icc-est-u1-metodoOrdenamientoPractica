@@ -41,6 +41,5 @@ Descendente:
 ![alt text](assets/BubbleSortDescen.png)
 
 ### Conclusion de la Practica
-
 La práctica permitió implementar y observar el comportamiento de tres algoritmos de ordenamiento. Insertion destaca en arreglos casi ordenados; Selection es útil por su simplicidad y número reducido de swaps; Bubble es intuitivo pero menos eficiente, aunque su variante mejorada puede ahorrar trabajo en casos favorables.
 
